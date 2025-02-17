@@ -6,7 +6,7 @@ This is an app to manage the content of a website
 
 ## Getting started
 
-``` bash
+```bash
 # install
 $ npm install
 
