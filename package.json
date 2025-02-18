@@ -1,11 +1,19 @@
 {
   "type": "module",
+  "imports": {
+    "#libs/common": "./dist/libs/common/index.js"
+  },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
-    "@nestjs/platform-express": "^11.0.1"
+    "@nestjs/platform-express": "^11.0.1",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
+    "@nestjs/schematics": "^10.0.1",
+    "@nx/nest": "^20.4.4",
+    "@nx/workspace": "^20.4.4",
+    "nx": "20.4.4",
     "prettier": "^3.5.1",
     "typescript": "^5.7.3"
   }

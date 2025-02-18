@@ -11,6 +11,10 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "removeComments": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "#libs/common": ["libs/common/src/index.js"]
+    }
   }
 }
